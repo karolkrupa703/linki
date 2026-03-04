@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Linki</title>
+    <style>
+        header{
+            display: flex;
+            justify-content: space-between;
+        }
+        .cos1{
+            background-color: aquamarine ;
+            color: black;
+            height: 20px;
+            border-radius: 20px;
+            padding: 10px;
+            text-decoration: none;
+        }
+        .cos1:hover {
+            background-color: brown;
+            color:white;
+            transition: scale(1.1);
+            opacity: 0.8;
+            transition: all 1s initial;
+        }
+        .zdjecie{
+            display: inline-block;
+            opacity: 1;            
+        }
+        .zdjecie:hover{
+            transition: scale(1.1);
+            opacity: 0.8;
+            transition: all 0.1s ease;
+            transform: rotate(360deg);
+        }
+        .imie{
+            text-decoration: none;
+            color: blueviolet;
+            font-weight: bold;
+            font-size: 200%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <a class="imie" href="youtube.com" target="_blank">Karol</a>
+        <a class="cos1" href="youtube.com" target="_blank">Kliknij tu mordo</a>
+        <a class="zdjecie" href="facebook.com" target="_blank">
+            <img src="socialikon.png">
+        </a>
+    </header>
+</body>
+</html>
